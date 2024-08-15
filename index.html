@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Research</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container text-center">
+        <h1 class="display-4 text-white mt-5">Pokémon Research</h1>
+        <p class="lead text-white">Pesquise seu Pokémon favorito</p>
+
+        <div class="input-group mb-3">
+            <select id="pokemonSelect" class="custom-select">
+                <option selected>Escolha um Pokémon</option>
+            </select>
+            <div class="input-group-append">
+                <button class="btn btn-primary" id="searchBtn" type="button">Pesquisar</button>
+            </div>
+        </div>
+
+        <div id="pokemonResult" class="text-white"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

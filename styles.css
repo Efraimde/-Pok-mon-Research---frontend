@@ -1,0 +1,22 @@
+body {
+    background-image: url('https://www.coxinhanerd.com.br/wp-content/uploads/2019/11/31.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#pokemonResult {
+    margin-top: 20px;
+}
+
